@@ -45,6 +45,9 @@ every recipe because its language is unknown.
 These words are taken off the name:
 
 - `preparation`: what was done to the food. "Finely chopped onion" is onion.
+- `qualifiers`: how a preparation was done, like "ناعمة" in "مفرومة ناعمة"
+  (finely chopped). It is only removed right after a preparation, so "سكر ناعم"
+  (caster sugar) stays its own food.
 - `sizes`: "2 large onions" is onions. A size used as the unit, as in "2
   large", counts pieces.
 - `approximately`: words that make an amount a guess, like "about" in "about

@@ -85,4 +85,9 @@ export const SPELLING_CASES: ReadonlyArray<readonly [string, string, boolean]> =
   ["ماء", "ماء دافئ", true],
   // One onion (بصلة) is a spelling of onions (بصل).
   ["بصل", "بصلة صغيرة مفرومة", true],
+  // "Fine" after a preparation is how it was done: "finely chopped" goes...
+  ["بصل", "بصلة صغيرة مفرومة ناعمة", true],
+  // ...and names a kind of food where no preparation comes before it.
+  ["سكر", "سكر ناعم", false],
+  ["برغل", "برغل ناعم", false],
 ];
